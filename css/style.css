@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+.menu-link {
+    text-decoration: none;
+    text-align: center;
+    justify-content: space-between list-style: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+
+
+}
+
+
+head {
+    max-width: 1000px;
+    margin: auto;
+    padding-inline: 2rem;
+    background-color: blue;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+
+}
+
+.menu {
+    display: flex;
+    text-align: center;
+    padding: 2rem;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+    padding-right: 55px;
+    gap: 1rem;
+    justify-content: center;
+    border-radius: 3rem;
+
+
+
+}
+
+.container {
+    display: flex;
+    gap: 1rem;
+    max-width: 1000px;
+    margin: auto;
+    padding-inline: 2rem;
+    margin-bottom: 1rem;
+}
+
+.container-dos {
+    display: flex;
+    gap: 1rem;
+    max-width: 1000px;
+    margin: auto;
+    padding-inline: 2rem;
+    margin-bottom: 1rem;
+}
+
+.container-tres {
+    display: flex;
+    gap: 1rem;
+    max-width: 1000px;
+    margin: auto;
+    padding-inline: 2rem;
+    margin-bottom: 1rem;
+
+}
+
+.container-cuatro {
+    display: flex;
+    gap: 1rem;
+    max-width: 1000px;
+    margin: auto;
+    padding-inline: 2rem;
+
+}
+
+.titulo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 1rem;
+    text-align: center;
+}
+
+.parrafo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 1rem;
+}
+
+.foto {
+    padding: 2rem;
+    border-radius: 3rem;
+}
+
+.flex- {
+    border: .20rem solid;
+    border-radius: 2rem;
+
+}
+
+nav li a:hover {
+    background-color: grey;
+    color: beige;
+}
+
+.menu-item {
+    padding-right: 10px;
+
+
+}
+
+.icon {
+    padding: 5rem;
+    display: flex;
+    list-style: none;
+    font-size: 35px;
+    gap: 1rem;
+    justify-content: center;
+    color: blue;
+}
+.politica {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-inline: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+.foto-politica {
+    padding: 2rem;
+    border-radius: 3rem;
+}
+.titulo-politica {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 1rem;
+    text-align: center;
+}
+.parrafo-politica {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 1rem;
+}
+.politica-1 {
+    border: .20rem solid;
+    border-radius: 2rem;
+}
+.deportes {
+
+    display: flex;
+    gap: 1rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-inline: 2rem;
+}
+.foto-deportes {
+    padding: 2rem;
+    border-radius: 3rem;
+
+}
+.titulo-deportes {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 1rem;
+    text-align: center;  
+}
+.parrafo-deportes {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 1rem;
+}
+
+.deportes-1 {
+    border: .20rem solid;
+    border-radius: 2rem;
+}
+.contacto {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-inline: 2rem;
+}
+.container-economia {
+  
+    gap: 1rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-inline: 2rem;
+}
+.titulo-economia {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.grid-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-inline: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "parque indio"
+    "obelisco kavanagh";
+    row-gap: 1rem;
+    column-gap: 1rem ;
+
+}
+.espectaculos-1 {
+    grid-template-areas: parque;
+    padding: 2rem;
+    border-radius: 3rem;
+    text-align: center;
+    padding-bottom: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 1rem;
+    border: .20rem solid;
+    border-radius: 2rem;
+}
+
+
+.espectaculos-2 {
+grid-template-areas: indio;
+padding: 2rem;
+    border-radius: 3rem;
+    text-align: center;
+    padding-bottom: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 1rem;
+    border: .20rem solid;
+    border-radius: 2rem;
+}
+
+.espectaculos-3 {
+    grid-template-areas: obelisco;
+    padding: 2rem;
+    border-radius: 3rem;
+    text-align: center;
+    padding-bottom: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 1rem;
+    border: .20rem solid;
+    border-radius: 2rem;
+}
+
+
+.espectaculos-4 {
+    grid-template-areas: kavanagh;
+    padding: 2rem;
+    border-radius: 3rem;
+    text-align: center;
+    padding-bottom: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 1rem;
+    border: .20rem solid;
+    border-radius: 2rem;
+}
+
+
+
+
+
+
+
+
